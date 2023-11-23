@@ -9,16 +9,16 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 /* header */
 .logo {
   color: #2e2f42;
   text-transform: uppercase;
-  font-family: raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
