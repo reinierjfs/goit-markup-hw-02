@@ -1,0 +1,77 @@
+:root {
+  --slate: #434455;
+  --iris: #4d5ae5;
+  --white: #ffffff;
+  --navy-blue: #2e2f42;
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* header */
+.logo {
+  color: #2e2f42;
+  text-transform: uppercase;
+  font-family: raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-decoration: none;
+}
+
+.accent {
+  color: #4d5ae5;
+}
+/* nav */
+.list-items > .item {
+  color: var(--navy-blue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.item:hover {
+  color: var(--ocean);
+}
+
+/* address */
+.contact-item > .contact {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.contact:hover {
+  color: var(--ocean);
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* button */
+.button {
+  color: #4d5ae5;
+  background-color: var(--cloud);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+  color: var(--white);
+}
