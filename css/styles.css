@@ -110,10 +110,82 @@ body {
   color: var(--slate);
 }
 
+/* section 1 - index */
+
+.section-one {
+  background-color: var(--navy-blue);
+}
+
+.header-hero {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.btn {
+  background-color: var(--iris);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.btn:hover,
+:focus {
+  background-color: var(--ocean);
+}
+
+/* section 2 index */
+
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* section 3 index */
+
+.service-list {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+/* section 4 index */
+.section-four {
+  background-color: var(--cloud);
+}
+
+.service-item {
+  background-color: var(--white);
+}
+
 /* footer */
 .footer {
   background-color: var(--navy-blue);
 }
 .footer-accent {
   color: var(--cloud);
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: var(--cloud);
+  letter-spacing: 0.02;
 }
