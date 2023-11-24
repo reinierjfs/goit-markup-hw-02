@@ -38,11 +38,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.item:hover,
-:focus {
+.item:hover {
   color: var(--ocean);
 }
-
+.item:focus {
+  color: var(--ocean);
+}
 /* address */
 .contact-item > .contact {
   color: var(--slate);
