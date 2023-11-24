@@ -56,8 +56,10 @@ body {
   font-style: normal;
 }
 
-.contact:hover,
-:focus {
+.contact:hover {
+  color: var(--ocean);
+}
+.contact:focus {
   color: var(--ocean);
 }
 
